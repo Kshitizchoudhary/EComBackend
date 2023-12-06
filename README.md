@@ -1,2 +1,2 @@
 # EComBackend
-Backend of E-commerce using Springbok
+Backend of E-commerce using Springboot
