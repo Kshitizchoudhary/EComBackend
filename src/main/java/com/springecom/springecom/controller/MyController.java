@@ -33,7 +33,7 @@ public class MyController {
 	
 	}
 	
-	@GetMapping("courses/{categoryId}")
+	@GetMapping("categories/{categoryId}")
 	public Categories getCategory(@PathVariable String categoryId)
 	{
 		return this.categoryService.getCategory(Long.parseLong(categoryId));
