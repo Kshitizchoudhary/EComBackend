@@ -14,7 +14,8 @@ public class CategoryServiceImpl implements CategoryService {
 	
 	List<Categories> list;
 	
-	public CategoryServiceImpl() {
+	public CategoryServiceImpl() 
+	{
 		list = new  ArrayList<>();
 		list.add(new Categories(145,  "Java Course", "this couse contains basics"));
 		list.add(new Categories(146,  "Python Course", "this couse contains advancce"));
@@ -38,7 +39,7 @@ public class CategoryServiceImpl implements CategoryService {
 		
 		for(Categories category:list)
 		{
-			if (Categories.getId() == categoryId)
+			if (category.getId() == categoryId)
 			{
 				c=category;
 				break;
